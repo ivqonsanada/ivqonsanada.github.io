@@ -1,15 +1,14 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     width: auto;
-    padding: 0px;
 }
 h1{
   font-size: 36px;
   text-align:center;
 }
-h2{
-  font-size: 28px;
-  padding-left: 20px;
+h2 {
+    font-size: 28px;
+    padding: 20px 0px 20px 20px;
 }
 p {
   font-size: 20px;
