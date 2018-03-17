@@ -4,7 +4,6 @@
     font-family: 'roboto_condensedlight';
     src: url('fonts/RobotoCondensed-Light-webfont.eot');
     src: url('fonts/RobotoCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/RobotoCondensed-Light-webfont.woff2') format('woff2'),
          url('fonts/RobotoCondensed-Light-webfont.woff') format('woff'),
          url('fonts/RobotoCondensed-Light-webfont.ttf') format('truetype'),
          url('fonts/RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
