@@ -22,3 +22,24 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.clear{
+clear:both;
+}
+.main{
+width:auto;
+}
+.top {
+background-color: black;
+color: white;
+width:100%;
+height: auto;
+}
+.left {
+float:left;
+width: 65%;
+}
+.right{
+float:right;
+width:35%;
+}
