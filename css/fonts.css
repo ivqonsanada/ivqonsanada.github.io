@@ -4,7 +4,10 @@
     font-family: 'roboto_condensedlight';
     src: url('fonts/RobotoCondensed-Light-webfont.eot');
     src: url('fonts/RobotoCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
+<<<<<<< HEAD
          url('fonts/RobotoCondensed-Light-webfont.woff2') format('woff2'),
+=======
+>>>>>>> 02cb69cfacc6f6cd5445cf1bd1864933f251b848
          url('fonts/RobotoCondensed-Light-webfont.woff') format('woff'),
          url('fonts/RobotoCondensed-Light-webfont.ttf') format('truetype'),
          url('fonts/RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
