@@ -1,45 +1,68 @@
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    width: auto;
-    max-width: 960px;
-    margin: 0 auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: auto;
+  max-width: auto;
+  margin: 0 auto;
 }
-h1{
+
+h1 {
   font-size: 36px;
-  text-align:center;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px dashed black;
+  padding-bottom: 20px;
 }
+
 h2 {
-    font-size: 28px;
-    padding: 20px;
+  font-size: 28px;
+  padding: 0px 20px;
 }
+
 p {
   font-size: 20px;
   padding: 20px;
 }
+
 img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
-.clear{
-clear:both;
+.clear {
+  clear: both;
 }
-.main{
-width:auto;
+
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  width: auto;
 }
+
 .top {
-background-color: black;
-color: white;
-width:100%;
-height: auto;
+  height: auto;
 }
+
 .left {
-float:left;
-width: 65%;
+  float: left;
+  width: 65%;
+  border-right: 2px dashed black;
+  padding-right: 30px;
+  margin-bottom: 30px;
 }
-.right{
-float:right;
-width:35%;
+
+.right {
+  padding-bottom: 100%;
+  float: right;
+  width: 30%;
+}
+
+@media only screen and (max-width: 720px) {
+  .right {
+    float: none;
+  }
+  .left {
+    float: none;
+  }
 }
