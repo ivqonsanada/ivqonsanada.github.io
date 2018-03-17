@@ -1,7 +1,6 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
   width: auto;
-  max-width: auto;
   margin: 0 auto;
 }
 
@@ -53,16 +52,19 @@ img {
 }
 
 .right {
-  padding-bottom: 100%;
   float: right;
-  width: 28%;
+  width: 30%;
 }
 
 @media only screen and (max-width: 720px) {
   .right {
-    float: left;
+    float: none;
+    width: 100%;
   }
   .left {
     float: none;
+    border-right: none;
+    padding-right: 0;
+    width: 100%;
   }
 }
