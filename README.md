@@ -1,3 +1,3 @@
 # ivqonsanada.github.io
 
-Iseng bikin portofolio diri.
+Iseng bikin portfolio diri.
