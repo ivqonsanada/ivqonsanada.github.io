@@ -1,3 +1,3 @@
 # ivqonsanada.github.io
 
-Web ini biasa saja.
+Iseng bikin portofolio diri.
